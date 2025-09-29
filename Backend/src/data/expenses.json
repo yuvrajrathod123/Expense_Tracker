@@ -1,0 +1,163 @@
+[
+  {
+    "user": "yuvraj",
+    "date": "2025-08-01",
+    "category": "Balance",
+    "description": "Kotak Bank",
+    "amount": 0,
+    "mode": "UPI",
+    "note": "Initial balance"
+  },
+  {
+    "user": "yuvraj",
+    "date": "2025-08-01",
+    "category": "Food",
+    "description": "Medu Vada + Vadapav + PP",
+    "amount": 70,
+    "mode": "UPI"
+  },
+  {
+    "user": "yuvraj",
+    "date": "2025-08-01",
+    "category": "Fixed Travel",
+    "description": "Bus ticket",
+    "amount": 10,
+    "mode": "UPI"
+  },
+  {
+    "user": "yuvraj",
+    "date": "2025-08-02",
+    "category": "Food",
+    "description": "Bhurji chapati + Vadapav + PP",
+    "amount": 103,
+    "mode": "UPI"
+  },
+  {
+    "user": "yuvraj",
+    "date": "2025-08-02",
+    "category": "Vegetables",
+    "description": "Tomato + Bhindi",
+    "amount": 21,
+    "mode": "UPI"
+  },
+  {
+    "user": "yuvraj",
+    "date": "2025-08-03",
+    "category": "Fruits",
+    "description": "Apple",
+    "amount": 75,
+    "mode": "UPI"
+  },
+  {
+    "user": "yuvraj",
+    "date": "2025-08-03",
+    "category": "Food",
+    "description": "Medu Vada + Machurian",
+    "amount": 55,
+    "mode": "UPI"
+  },
+  {
+    "user": "yuvraj",
+    "date": "2025-08-03",
+    "category": "Travel",
+    "description": "Train + Auto",
+    "amount": 180,
+    "mode": "UPI"
+  },
+  {
+    "user": "yuvraj",
+    "date": "2025-08-03",
+    "category": "Others",
+    "description": "Button + Pani bottle",
+    "amount": 25,
+    "mode": "UPI"
+  },
+  {
+    "user": "yuvraj",
+    "date": "2025-08-04",
+    "category": "Fixed Travel",
+    "description": "Bus ticket",
+    "amount": 20,
+    "mode": "UPI"
+  },
+  {
+    "user": "yuvraj",
+    "date": "2025-08-04",
+    "category": "Vegetables",
+    "description": "Flower + Muli",
+    "amount": 30,
+    "mode": "UPI"
+  },
+  {
+    "user": "yuvraj",
+    "date": "2025-08-04",
+    "category": "Food",
+    "description": "Vadapav",
+    "amount": 15,
+    "mode": "UPI"
+  },
+  {
+    "user": "yuvraj",
+    "date": "2025-08-05",
+    "category": "Fixed Travel",
+    "description": "Ticket",
+    "amount": 12,
+    "mode": "UPI"
+  },
+  {
+    "user": "yuvraj",
+    "date": "2025-08-05",
+    "category": "Food",
+    "description": "Panipuri",
+    "amount": 20,
+    "mode": "UPI"
+  },
+  {
+    "user": "yuvraj",
+    "date": "2025-08-06",
+    "category": "Food",
+    "description": "Dinner + PP",
+    "amount": 120,
+    "mode": "UPI"
+  },
+  {
+    "user": "yuvraj",
+    "date": "2025-08-07",
+    "category": "Fixed Travel",
+    "description": "Bus ticket + Bus",
+    "amount": 40,
+    "mode": "UPI"
+  },
+  {
+    "user": "yuvraj",
+    "date": "2025-08-07",
+    "category": "Food",
+    "description": "PP",
+    "amount": 20,
+    "mode": "UPI"
+  },
+  {
+    "user": "yuvraj",
+    "date": "2025-08-07",
+    "category": "Rent/Lightbill",
+    "description": "Rent (3833) + Lightbill (258)",
+    "amount": 4091,
+    "mode": "Niraj"
+  },
+  {
+    "user": "yuvraj",
+    "date": "2025-08-08",
+    "category": "Kirana",
+    "description": "Toothpaste",
+    "amount": 22,
+    "mode": "UPI"
+  },
+  {
+    "user": "yuvraj",
+    "date": "2025-08-08",
+    "category": "Vegetables",
+    "description": "Bhindi + Tomato",
+    "amount": 27,
+    "mode": "UPI"
+  }
+]
