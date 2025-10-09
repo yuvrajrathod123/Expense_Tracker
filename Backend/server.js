@@ -17,7 +17,11 @@ const authMiddleware = require("./src/middleware/auth");
 const app = express();
 
 // middleware
-app.use(cors());
+// app.use(cors());
+app.use(cors({
+  origin: "https://miniature-rotary-phone-45vr9jg65vrhw9j-5173.app.github.dev", // frontend URL
+  credentials: true
+}));
 app.use(express.json());
 
 // environment variables
@@ -130,7 +134,7 @@ app.get("/api/transactions", async (req, res) => {
 
 // Example protected route
 app.get("/api/profile", authMiddleware, (req, res) => {
-  res.json({ message: `Welcome ${req.user.username}`, user: req.user });
+  res.json({ message: `Welcome ${req.user.name}`, user: req.user });
 });
 
 

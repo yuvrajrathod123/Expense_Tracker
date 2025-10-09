@@ -38,6 +38,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Login from "./Base_Component/Login";
 import Register from "./Base_Component/Register";
 import Home from "./Base_Component/Home";
+// import Dashboard from "./Base_Component/DashBoard";
+import Dashboard from "./Components/Dashboard";
 // import About from "./About";
 
 
@@ -45,7 +47,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />          
+        <Route path="/" element={<Dashboard />} />          
         {/* <Route path="/about" element={<About />} />     */}
         <Route path="/login" element={<Login />} />   
         <Route path="/register" element={<Register />} /> 
