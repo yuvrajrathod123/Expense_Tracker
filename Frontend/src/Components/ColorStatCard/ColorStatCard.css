@@ -1,0 +1,105 @@
+
+/* Payment Mode Balance Cards */
+
+.mode-balance-card {
+ 
+  background: white;
+  padding: 10px 10px 10px 10px;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-left: 4px solid;
+}
+
+.dark .mode-balance-card {
+  background: #1e293b;
+}
+
+.mode-balance-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.mode-balance-card.upi-card {
+  border-left-color: #8b5cf6;
+}
+
+.mode-balance-card.card-card {
+  border-left-color: #3b82f6;
+}
+
+.mode-balance-card.wallet-card {
+  border-left-color: #10b981;
+}
+
+.mode-balance-card.bank-card {
+  border-left-color: #f59e0b;
+}
+
+.mode-balance-card.cash-card {
+  border-left-color: #6b7280;
+}
+
+.mode-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.upi-card .mode-icon {
+  background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+}
+
+.card-card .mode-icon {
+  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+}
+
+.wallet-card .mode-icon {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+}
+
+.bank-card .mode-icon {
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+}
+
+.cash-card .mode-icon {
+  background: linear-gradient(135deg, #6b7280 0%, #4b5563 100%);
+}
+
+.mode-details {
+  flex: 1;
+}
+
+.mode-label {
+  font-size: 12px;
+  color: #64748b;
+  display: block;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+
+.mode-amount {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1e293b;
+}
+
+.dark .mode-amount {
+  color: #f1f5f9;
+}
+
+.mode-display {
+  display: flex;
+  align-items: center;
+  gap: 0px;
+  color: #64748b;
+}

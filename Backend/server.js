@@ -10,8 +10,12 @@ const Account = require("./src/models/Account.js");
 const Category = require("./src/models/Category.js");
 const Transaction = require("./src/models/Transaction.js");
 
-
+// routes
 const authRoutes = require("./src/routes/auth.js");
+const transactionRoutes = require("./src/routes/transaction.js")
+
+
+// middlewares
 const authMiddleware = require("./src/middleware/auth");
 
 const app = express();
@@ -32,6 +36,7 @@ const PORT = process.env.PORT || 3000;
 
 // Authentication routes
 app.use("/auth", authRoutes);
+app.use("/transaction", transactionRoutes);
 
 // routes
 app.get("/", (req, res) => {

@@ -39,7 +39,9 @@ import Login from "./Base_Component/Login";
 import Register from "./Base_Component/Register";
 import Home from "./Base_Component/Home";
 // import Dashboard from "./Base_Component/DashBoard";
-import Dashboard from "./Components/Dashboard";
+// import Dashboard from "./Components/Dashboard";
+
+import Dashboard from "./Dashboard";
 // import About from "./About";
 
 

@@ -10,11 +10,12 @@ const transactionSchema = new mongoose.Schema(
     mode: {type: mongoose.Schema.Types.ObjectId, ref: "Mode", required: true,},
     description: {type: String, trim: true,},
     date: {type: Date,default: Date.now,},
-    balanceAfterTransaction: {type: Number, required: true,}, // snapshot of mode balance after this txn
     user: {type: mongoose.Schema.Types.ObjectId, ref: "User", required: true, },
   },
   { timestamps: true }
 );
+
+transactionSchema.index({ user: 1, date: -1 });
 
 module.exports = mongoose.model("Transaction", transactionSchema);
 

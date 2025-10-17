@@ -1,0 +1,37 @@
+/* // ============================================
+// FILE: views/AnalyticsView/AnalyticsView.css
+// ============================================ */
+
+.coming-soon {
+  background: white;
+  padding: 80px 40px;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 16px;
+  min-height: 400px;
+  justify-content: center;
+  transition: background 0.3s ease;
+}
+
+.dark .coming-soon {
+  background: #1e293b;
+}
+
+.coming-soon h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #1e293b;
+  transition: color 0.3s ease;
+}
+
+.dark .coming-soon h2 {
+  color: #f1f5f9;
+}
+
+.coming-soon p {
+  color: #64748b;
+}
